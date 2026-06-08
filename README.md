@@ -2,7 +2,7 @@
 
 # 🚬 Smoking Status Predictor
 
-Sistema de predição de status de fumante (**Never Smoked**, **Former Smoker** ou **Current Smoker**) utilizando Machine Learning com Random Forest treinado sobre o dataset da Korean National Health Insurance Service (NHIS).
+Sistema de predição de status de fumante (**Never Smoked**, **Former Smoker** ou **Current Smoker**) utilizando Machine Learning com XGBoost treinado sobre o dataset da Korean National Health Insurance Service (NHIS).
 
 ---
 
@@ -12,12 +12,12 @@ O projeto utiliza indicadores biométricos para prever o status de tabagismo de 
 
 ### Tecnologias Utilizadas
 
-| Componente   | Tecnologia                   | Finalidade                    |
-| ------------ | ---------------------------- | ----------------------------- |
-| Modelo ML    | Scikit-Learn (Random Forest) | Predição de status de fumante |
-| Backend      | FastAPI + Uvicorn            | API REST                      |
-| Frontend     | Streamlit                    | Interface Web                 |
-| Serialização | Joblib (.pkl)                | Persistência do modelo        |
+| Componente   | Tecnologia             | Finalidade                    |
+| ------------ | ---------------------- | ----------------------------- |
+| Modelo ML    | Scikit-Learn (XGBoost) | Predição de status de fumante |
+| Backend      | FastAPI + Uvicorn      | API REST                      |
+| Frontend     | Streamlit              | Interface Web                 |
+| Serialização | Joblib (.pkl)          | Persistência do modelo        |
 
 ---
 
@@ -332,5 +332,5 @@ Projeto acadêmico desenvolvido para estudo de Machine Learning aplicado à áre
 
 **Smoking Status Predictor**  
 Dataset: Korean NHIS Smoking & Drinking  
-Modelo: Random Forest Classifier  
+Modelo: XGBoost Classifier  
 2026

@@ -89,7 +89,7 @@ def calc_derived(weight, height, triglyceride, hdl):
 st.markdown("""
 <div class="hero">
     <p class="hero-title">🫁 Smoking Status Predictor</p>
-    <p class="hero-sub">Insira os indicadores biométricos do paciente para obter a predição do status de tabagismo via Random Forest.</p>
+    <p class="hero-sub">Insira os indicadores biométricos do paciente para obter a predição do status de tabagismo.</p>
 </div>
 """, unsafe_allow_html=True)
 
